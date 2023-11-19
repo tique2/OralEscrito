@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Escrito">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextEscribir"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:autofillHints=""
+                android:hint="@string/hint_caja_de_texto"
+                android:minHeight="48dp"
+                android:textColorHint="#050505"
+                android:textSize="40sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/editTextCorreccion"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:autofillHints=""
+                android:hint="@string/caja_de_texto_Correccion"
+                android:minHeight="48dp"
+                android:textColorHint="#050505"
+                android:textIsSelectable="true"
+                android:textSize="40sp"
+                tools:ignore="TextFields" />
+
+            <Button
+                android:id="@+id/texto_boton_ortografia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_boton_ortografia"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/botonCompartir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_boton_compartir"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/botonEscuchar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_boton_escuchar"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/botonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_boton_menu"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">OralEscrito</string>
+    <string name="boton_escrito">Botón Escrito</string>
+    <string name="boton_oral">Botón Oral</string>
+    <string name="caja_de_texto_Correccion">Texto corregido...</string>
+    <string name="fondo">fondo</string>
+    <string name="hint_caja_de_texto">Escribir algo...</string>
+    <string name="texto_boton_compartir">Compartir</string>
+    <string name="texto_boton_escuchar">Escuchar</string>
+    <string name="texto_boton_menu">Menú</string>
+    <string name="texto_boton_ortografia">ortografia</string>
+    <string name="texto_boton_voz">Voz</string>
+    <style name="Base.Theme.OralEscrito" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.OralEscrito" parent="Base.Theme.OralEscrito"/>
+</resources>
